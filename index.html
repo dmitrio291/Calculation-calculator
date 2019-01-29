@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calc</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="calc">
+
+		<div class="tabs">
+			<div class="tabs__left active">Лэндинг</div>
+			<div class="tabs__right">Многостраничник</div>
+		</div>
+
+		<div class="blocks" id="blocks-block">
+			<p class="blocks__title fade">Количество блоков</p>
+			<input type="number" class="blocks__counter" id="counter-block">
+		</div>
+		<div class="blocks" id="pages-block">
+			<p class="blocks__title fade">Количество страниц</p>
+			<input type="number" class="blocks__counter" id="counter-pages">
+		</div>
+		<div class="blocks">
+			<p class="blocks__title">Сколько часов на проект</p>
+			<input type="number" class="blocks__counter" id="counter-hours">
+		</div>
+		<div class="blocks">
+			<p class="blocks__title">Стоимость вашего часа</p>
+			<input type="number" class="blocks__counter" id="counter-rate">
+		</div>
+
+		<div class="addiction">
+			<p class="addiction__title">Дополнительно</p>
+			<div class="addiction__block">
+				<input class="addiction__checkbox" type="checkbox" id="changes-check">
+				<label for="changes-check">
+					Возможность редактировать текст на сайте
+				</label> 
+			</div>
+			<div class="addiction__block">
+				<input class="addiction__checkbox" type="checkbox" id="cms-check">
+				<label for="cms-check">
+					Установка на CMS
+				</label>
+			</div>
+		</div>
+
+		<div class="total">
+			Общая стоимость
+			<input value="5000" type="text" class="total__count">
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
